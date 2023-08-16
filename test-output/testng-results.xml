@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-15T21:30:28 IST" name="Suite" finished-at="2023-08-15T21:30:36 IST" duration-ms="7583">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistration.Test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistration@cb0755b]" name="Test_accountRegistration" class="testCases.TC_001_AccountRegistration"/>
+        <method signature="TC_002_LoginTest.logintest()[pri:0, instance:testCases.TC_002_LoginTest@79e4c792]" name="logintest" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_LoginTest.logintest()[pri:0, instance:testCases.TC_002_LoginTest@79e4c792]" name="logintest" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistration.Test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistration@cb0755b]" name="Test_accountRegistration" class="testCases.TC_001_AccountRegistration"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-08-15T21:30:28 IST" name="Chrometest" finished-at="2023-08-15T21:30:36 IST" duration-ms="7583">
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@79e4c792]" started-at="2023-08-15T21:30:33 IST" name="setup" finished-at="2023-08-15T21:30:34 IST" duration-ms="1502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:testCases.TC_002_LoginTest@79e4c792]" started-at="2023-08-15T21:30:34 IST" name="logintest" finished-at="2023-08-15T21:30:35 IST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@79e4c792]" started-at="2023-08-15T21:30:35 IST" name="tearDown" finished-at="2023-08-15T21:30:36 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@cb0755b]" started-at="2023-08-15T21:30:28 IST" name="setup" finished-at="2023-08-15T21:30:31 IST" duration-ms="2723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistration@cb0755b]" started-at="2023-08-15T21:30:31 IST" name="Test_accountRegistration" finished-at="2023-08-15T21:30:32 IST" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_accountRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@cb0755b]" started-at="2023-08-15T21:30:32 IST" name="tearDown" finished-at="2023-08-15T21:30:33 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </test> <!-- Chrometest -->
+  </suite> <!-- Suite -->
+</testng-results>
